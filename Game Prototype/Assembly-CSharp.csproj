@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Finishline.cs" />
+     <Compile Include="Assets\Scripts\Mountains.cs" />
+     <Compile Include="Assets\Scripts\Objects.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/virginia_lopez-nadal/Documents/team4_gdf18/Game Prototype/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
