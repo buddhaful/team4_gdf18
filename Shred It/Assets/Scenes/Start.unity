@@ -830,6 +830,7 @@ GameObject:
   - component: {fileID: 539255207}
   - component: {fileID: 539255206}
   - component: {fileID: 539255209}
+  - component: {fileID: 539255210}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -897,6 +898,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 539255209}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 539255210}
+        m_MethodName: SceneSwitcher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1037,6 +1049,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &539255210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 539255204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450bf4b954cb242c782876864654601b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &563732639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1450,7 +1473,7 @@ GameObject:
   - component: {fileID: 689540435}
   - component: {fileID: 689540438}
   m_Layer: 5
-  m_Name: Settings Button
+  m_Name: Exit Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,8 +1753,9 @@ GameObject:
   - component: {fileID: 725721004}
   - component: {fileID: 725721003}
   - component: {fileID: 725721006}
+  - component: {fileID: 725721007}
   m_Layer: 5
-  m_Name: Load Button
+  m_Name: Settings Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1797,6 +1821,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 725721006}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 725721007}
+        m_MethodName: SceneSwitcher
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1937,6 +1972,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &725721007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725721001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a131e00457667467ca20341d8459fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &732413875
 GameObject:
   m_ObjectHideFlags: 0
@@ -7227,7 +7273,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bffcd58d6b05840749e9c3668b853ae8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7569,7 +7615,8 @@ AudioSource:
   m_GameObject: {fileID: 1123558994}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 2b6d8ad8bf70643caa0bd85cdc4ece28,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: ef6e6070ee9824dcfa06f332ba5f7314, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -7989,7 +8036,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bffcd58d6b05840749e9c3668b853ae8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8519,7 +8566,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1fcbf9dbb025f4348952330282249cc9, type: 3}
   m_Color: {r: 0.9245283, g: 0.9027234, b: 0.9027234, a: 1}
   m_FlipX: 0
@@ -8669,7 +8716,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bffcd58d6b05840749e9c3668b853ae8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

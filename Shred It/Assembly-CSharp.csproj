@@ -59,6 +59,11 @@
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Trees.cs" />
      <Compile Include="Assets\UI\Scripts\GameManagerScript.cs" />
+     <Compile Include="Assets\UI\Scripts\GraphicsControl.cs" />
+     <Compile Include="Assets\UI\Scripts\LoadGame.cs" />
+     <Compile Include="Assets\UI\Scripts\LoadSettings.cs" />
+     <Compile Include="Assets\UI\Scripts\MusicControl.cs" />
+     <Compile Include="Assets\UI\Scripts\ReturnMenu.cs" />
      <Compile Include="Assets\UI\Scripts\SetCountDown.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
