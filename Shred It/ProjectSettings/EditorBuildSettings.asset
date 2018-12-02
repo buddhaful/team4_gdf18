@@ -6,21 +6,42 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 45e3ae0047d6e4629977ebb3a2ba74a7
+  - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: b9868baa91653461789dbc2025ca6730
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 9849796f59f754c358c02e30a2e07201
   - enabled: 1
+    path: Assets/Scenes/Menu1.unity
+    guid: 02d12beda061341cb82b8a2d4c0e034b
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Win1.unity
-    guid: a8f34a91ce10e4d01ab66441892637d0
-  - enabled: 1
-    path: Assets/Scenes/Level2.unity
     guid: 83ae5a6e8b566447399151b43aace97b
   - enabled: 1
-    path: Assets/Scenes/Win2.unity
+    path: Assets/Scenes/Win1.unity
     guid: f36dd8e63915049c2b91934bb23ccd77
+  - enabled: 1
+    path: Assets/Scenes/Menu2.unity
+    guid: 4464b794fd708406391fadfda0015ff9
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Win2.unity
+    guid: a8f34a91ce10e4d01ab66441892637d0
+  - enabled: 1
+    path: Assets/Scenes/Lose1.unity
+    guid: 5b363b80195a1470c873346a46ced5d5
+  - enabled: 1
+    path: Assets/Scenes/Lose 2.unity
+    guid: de8685ff5acde497ab11f33653c60175
+  - enabled: 1
+    path: Assets/Scenes/Lose 3.unity
+    guid: a5d44db7b6c6e40ab99ee4f6641572d0
+  - enabled: 1
+    path: Assets/Scenes/Lose 4.unity
+    guid: 5d8452e0860df4db5894d65e8d038f88
   m_configObjects: {}

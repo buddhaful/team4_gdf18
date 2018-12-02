@@ -5,6 +5,6 @@
  public class LoadSettings : MonoBehaviour 
  {
      public void SceneSwitcher() {
-         SceneManager.LoadScene (1);
+         SceneManager.LoadScene (2);
      }
  }

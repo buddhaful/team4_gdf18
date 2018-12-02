@@ -5,6 +5,6 @@
  public class LoadGame : MonoBehaviour 
  {
      public void SceneSwitcher() {
-         SceneManager.LoadScene (2);
+         SceneManager.LoadScene (3);
      }
  }
