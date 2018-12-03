@@ -24,7 +24,7 @@ public class PlayerController2 : MonoBehaviour {
 
       //Initialize count to zero.
       count = 0;
-      strikes = 0;
+      strikes = 3;
 
       //Call our SetCountText function which will update the text with the current value for count.
       SetCountText ();
@@ -86,12 +86,12 @@ public class PlayerController2 : MonoBehaviour {
                      other.gameObject.SetActive(false);
                      
                       //Add one to the current value of our count variable.
-                      strikes = strikes + 1;
+                      strikes = strikes - 1;
 
                       //Update the currently displayed count by calling the SetCountText function.
                       SetCountText2 ();
                       
-                      if (strikes == 3)
+                      if (strikes == 0)
                 {
                   SceneManager.LoadScene (10);
                 }

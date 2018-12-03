@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CheatKeys.cs" />
      <Compile Include="Assets\Scripts\Finishline.cs" />
      <Compile Include="Assets\Scripts\Mountains.cs" />
      <Compile Include="Assets\Scripts\Objects.cs" />
@@ -71,7 +72,6 @@
      <Compile Include="Assets\UI\Scripts\LoadSettings.cs" />
      <Compile Include="Assets\UI\Scripts\MusicControl.cs" />
      <Compile Include="Assets\UI\Scripts\Praise.cs" />
-     <Compile Include="Assets\UI\Scripts\ReturnMenu.cs" />
      <Compile Include="Assets\UI\Scripts\SetCountDown.cs" />
      <Compile Include="Assets\UI\Scripts\SplashFade.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
@@ -87,7 +87,6 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-     <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
